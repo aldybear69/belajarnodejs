@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "firebase": "^9.8.3"
+  },
+  "name": "belajarnodejs",
+  "version": "1.0.0",
+  "description": "BELAJAR SEMUA HAL TENTANG NODEJS",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "B34R",
+  "license": "ISC"
+}
