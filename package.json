@@ -1,13 +1,16 @@
 {
-  "dependencies": {
-    "firebase": "^9.8.3"
-  },
   "name": "belajarnodejs",
   "version": "1.0.0",
   "description": "BELAJAR SEMUA HAL TENTANG NODEJS",
-  "main": "index.js",
-  "devDependencies": {},
+  "main": "contacts_app/app.js",
+  "dependencies": {
+    "firebase": "^9.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
   "scripts": {
+    "start": "nodemon contacts_app/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "B34R",
