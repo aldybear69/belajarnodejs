@@ -2,15 +2,17 @@
   "name": "belajarnodejs",
   "version": "1.0.0",
   "description": "BELAJAR SEMUA HAL TENTANG NODEJS",
-  "main": "contacts_app/app.js",
+  "main": "contacts/app.js",
   "dependencies": {
-    "firebase": "^9.8.3"
+    "firebase": "^9.8.3",
+    "yargs": "^17.5.1"
   },
   "devDependencies": {
+    "eslint": "^8.18.0",
     "nodemon": "^2.0.16"
   },
   "scripts": {
-    "start": "nodemon contacts_app/app.js",
+    "start": "nodemon contacts/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "B34R",
