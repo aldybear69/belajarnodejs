@@ -1,1 +1,2 @@
 express/views/layouts/*.ejs
+express/views/*.ejs

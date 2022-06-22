@@ -1,4 +1,5 @@
 const express = require("express");
+const morgan = require("morgan");
 const path = require("path");
 const app = express();
 const port = 3000;
@@ -6,7 +7,11 @@ const port = 3000;
 // set app bahwa menggunakan template engine EJS
 app.set("view engine", "ejs");
 // karena project expressjs ini views folder tidak di root maka ganti lokasi views ejs nya
-app.set("views", path.join(__dirname, "./views"));
+app.set("views", path.join(__dirname, "views"));
+// menggunakan built in Middleware untuk akses file2 statis (image, video, gambar, dll)
+app.use(express.static("express/public"));
+// Third Party Middleware
+app.use(morgan("dev"));
 
 const contohDataMahasiswa = [
   {

@@ -1,3 +1,21 @@
-<%- include('layouts/header') %> <%- include('layouts/nav') %>
-<h1>Hello, this is ABOUT page!</h1>
+<%- include('layouts/header') %> 
+<%- include('layouts/nav') %>
+
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+      <!-- espress js secara default memproteksi akses dari file statis kita seperti gambar, video, musik, dll
+    sehingga untuk mengaksesnya butuh Middleware build in yg namanya espress.static -->
+      <img
+        src="img/bear.jpg"
+        alt="Beruang Bear"
+        class="img-thumbnail rounded-circle"
+        width="300"
+      />
+      <h1 class="display-4">Beruang Bear</h1>
+      <p class="lead">Programmer | Full Stack Developer</p>
+    </div>
+  </div>
+</div>
+
 <%- include('layouts/footer') %>
