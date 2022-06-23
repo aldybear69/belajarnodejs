@@ -1,0 +1,17 @@
+<%- include('layouts/header') %> 
+<%- include('layouts/nav') %>
+
+<h1>Hello, this is HOME page!</h1>
+<h2>Halo <%= nama %>, Selamat datang..</h2>
+
+<h3>Data Mahasiwa</h3>
+<% if (contohDataMahasiswa.length<1) { %>
+<p>Data Mahasiswa Kosong..</p>
+<% } else { %> <% contohDataMahasiswa.forEach( mhs => { %>
+<ul>
+  <li>Nama : <%= mhs.nama %></li>
+  <li>NoHP : <%= mhs.noHP %></li>
+  <li>Umur : <%= mhs.email %></li>
+</ul>
+
+<% }) %> <% } %> <%- include('layouts/footer') %>

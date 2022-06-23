@@ -1,2 +1,5 @@
-express/views/layouts/*.ejs
-express/views/*.ejs
+expressjs/views/layouts/*.ejs
+expressjs/views/*.ejs
+
+contacts_expressjs/views/layouts/*.ejs
+contacts_expressjs/views/*.ejs

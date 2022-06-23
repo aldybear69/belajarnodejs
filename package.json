@@ -2,20 +2,24 @@
   "name": "belajarnodejs",
   "version": "1.0.0",
   "description": "BELAJAR SEMUA HAL TENTANG NODEJS",
-  "main": "express/index.js",
+  "main": "contacts_expressjs/app.js",
   "dependencies": {
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.6",
     "ejs": "^3.1.8",
     "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "express-validator": "^6.14.2",
     "firebase": "^9.8.3",
     "morgan": "^1.10.0",
     "yargs": "^17.5.1"
   },
   "devDependencies": {
     "eslint": "^8.18.0",
-    "nodemon": "^2.0.16"
+    "nodemon": "^1.3.3"
   },
   "scripts": {
-    "start": "nodemon express/index.js",
+    "start": "nodemon contacts_expressjs/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "B34R",
