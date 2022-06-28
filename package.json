@@ -2,7 +2,7 @@
   "name": "belajarnodejs",
   "version": "1.0.0",
   "description": "BELAJAR SEMUA HAL TENTANG NODEJS",
-  "main": "contacts_expressjs/app.js",
+  "main": "mongodb/app.js",
   "dependencies": {
     "connect-flash": "^0.1.1",
     "cookie-parser": "^1.4.6",
@@ -11,6 +11,7 @@
     "express-session": "^1.17.3",
     "express-validator": "^6.14.2",
     "firebase": "^9.8.3",
+    "mongodb": "^4.7.0",
     "morgan": "^1.10.0",
     "yargs": "^17.5.1"
   },
@@ -19,7 +20,7 @@
     "nodemon": "^1.3.3"
   },
   "scripts": {
-    "start": "nodemon contacts_expressjs/app.js",
+    "start": "nodemon mongodb/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "B34R",
